@@ -3,7 +3,15 @@ RSpec.describe Fizzbuzz do
     expect(Fizzbuzz::VERSION).not_to be nil
   end
 
-  it "is 3 divisible by 3" do
+  it "3 is divisible by 3" do
     expect(Fizzbuzz.divisible_by_3(3)).to eq(true)
   end
+
+  it "4 is not divisible by 3" do
+    expect(Fizzbuzz.divisible_by_3(4)).to eq(false)
+  end
+
+
+
+
 end
