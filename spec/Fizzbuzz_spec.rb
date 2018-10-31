@@ -19,6 +19,10 @@ RSpec.describe Fizzbuzz do
     expect(Fizzbuzz.divisible_by_5(4)).to eq(false)
   end
 
+  it "15 is divisible by 3 and 5" do
+    expect(Fizzbuzz.divisible_by_3_and_5(15)).to eq(true)
+  end
+
 
 
 
