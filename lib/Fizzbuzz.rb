@@ -6,7 +6,7 @@ module Fizzbuzz
 	end  
 
 	def self.divisible_by_5(number)
-	true
+	number % 5 == 0
 	end  
 
 

@@ -15,6 +15,10 @@ RSpec.describe Fizzbuzz do
     expect(Fizzbuzz.divisible_by_5(5)).to eq(true)
   end
 
+  it "4 is not divisible by 5" do
+    expect(Fizzbuzz.divisible_by_5(4)).to eq(false)
+  end
+
 
 
 
