@@ -5,4 +5,9 @@ module Fizzbuzz
 	number % 3 == 0
 	end  
 
+	def self.divisible_by_5(number)
+	true
+	end  
+
+
 end
