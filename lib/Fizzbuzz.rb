@@ -1,5 +1,7 @@
 require "Fizzbuzz/version"
 
 module Fizzbuzz
-  # Your code goes here...
+	def self.divisible_by_3(number)
+	true
+	end  
 end
