@@ -12,14 +12,14 @@ Game consisting on Listing numbers in order, replacing any number divisible by t
 
 ## Run the Game
 
-Open the terminal and navigate to the Fizzbuzz folder.
-To use the command line to run the application use the interactive ruby shell (irb)
+Open the terminal and navigate to the Fizzbuzz folder. <br/>
+To use the command line to run the application use the interactive ruby shell (irb) <br/>
 ``` irb ```
 
-Indicate the file needed for the game to work.
+Indicate the file needed for the game to work. <br/>
 ``` require "#{Dir.pwd}/lib/Fizzbuzz.rb" ```
 
-Run the game. In this example is numbers up to 100 but it can be amended. 
+Run the game. In this example is numbers up to 100 but it can be amended. <br/> 
 ``` 1.upto(100){|num| Fizzbuzz.printFizzBuzz(num)} ```
 
 ## License
