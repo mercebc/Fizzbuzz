@@ -3,10 +3,15 @@ require "Fizzbuzz/version"
 module Fizzbuzz
 	
 	def self.printFizzBuzz(number)
+	 puts playFizzBuzz(number)
+	end
+
+	def self.playFizzBuzz(number)
 	word = ["Fizz", "Buzz"]
 	return word[0]+word[1] if divisible_by_3_and_5(number)
 	return word[1] if divisible_by_5(number)
 	return word[0] if divisible_by_3(number)
+	return number
 	end	
 
 	def self.divisible_by_nums(number, nums)

@@ -28,16 +28,19 @@ RSpec.describe Fizzbuzz do
   end
 
   it "print Fizz when divisible by 3" do
-    expect(Fizzbuzz.printFizzBuzz(6)).to eq("Fizz")
+    expect(Fizzbuzz.playFizzBuzz(6)).to eq("Fizz")
   end
 
   it "print Buzz when divisible by 5" do
-    expect(Fizzbuzz.printFizzBuzz(10)).to eq("Buzz")
+    expect(Fizzbuzz.playFizzBuzz(10)).to eq("Buzz")
   end
 
   it "print FizzBuzz when divisible by 15" do
-    expect(Fizzbuzz.printFizzBuzz(30)).to eq("FizzBuzz")
+    expect(Fizzbuzz.playFizzBuzz(30)).to eq("FizzBuzz")
   end
 
+  it "print number when not divisible by 3, 5, 15" do
+    expect(Fizzbuzz.playFizzBuzz(7)).to eq(7)
+  end
 
 end
