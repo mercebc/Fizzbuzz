@@ -31,6 +31,13 @@ RSpec.describe Fizzbuzz do
     expect(Fizzbuzz.printFizzBuzz(6)).to eq("Fizz")
   end
 
+  it "print Buzz when divisible by 5" do
+    expect(Fizzbuzz.printFizzBuzz(10)).to eq("Buzz")
+  end
+
+  it "print FizzBuzz when divisible by 15" do
+    expect(Fizzbuzz.printFizzBuzz(30)).to eq("FizzBuzz")
+  end
 
 
 end

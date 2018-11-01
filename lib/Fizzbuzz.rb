@@ -3,7 +3,10 @@ require "Fizzbuzz/version"
 module Fizzbuzz
 	
 	def self.printFizzBuzz(number)
-	return "Fizz"
+	word = ["Fizz", "Buzz"]
+	return word[0]+word[1] if divisible_by_3_and_5(number)
+	return word[1] if divisible_by_5(number)
+	return word[0] if divisible_by_3(number)
 	end	
 
 	def self.divisible_by_nums(number, nums)
