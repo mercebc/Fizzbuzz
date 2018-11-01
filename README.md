@@ -1,38 +1,28 @@
-# Fizzbuzz
+# Fizzbuzz 
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/Fizzbuzz`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to the FizzBuzz game!  
 
-TODO: Delete this and the text above, and describe your gem
+##Introduction
 
-## Installation
+Game consisting on Listing numbers in order, replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz".
 
-Add this line to your application's Gemfile:
+##How to install
 
-```ruby
-gem 'Fizzbuzz'
-```
+git clone git@github.com:mercebc/Fizzbuzz.git
 
-And then execute:
+##Run the Game
 
-    $ bundle
+Open the terminal and navigate to the Fizzbuzz folder.
+To use the command line to run the application use the interactive ruby shell (irb)
+``irb
 
-Or install it yourself as:
+Indicate the file needed for the game to worg
+``require "#{Dir.pwd}/lib/Fizzbuzz.rb"
 
-    $ gem install Fizzbuzz
+Run the game. In this example is numbers up to 100 but it can be amended. 
+``1.upto(100){|num| Fizzbuzz.printFizzBuzz(num)}
 
-## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/Fizzbuzz. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
