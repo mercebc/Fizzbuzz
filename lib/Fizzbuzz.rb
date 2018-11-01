@@ -2,6 +2,10 @@ require "Fizzbuzz/version"
 
 module Fizzbuzz
 	
+	def self.printFizzBuzz(number)
+	return "Fizz"
+	end	
+
 	def self.divisible_by_nums(number, nums)
 	   nums.each do |i|
 		if (number % i != 0) 

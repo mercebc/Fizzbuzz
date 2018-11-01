@@ -27,6 +27,9 @@ RSpec.describe Fizzbuzz do
     expect(Fizzbuzz.divisible_by_3_and_5(16)).to eq(false)
   end
 
+  it "print Fizz when divisible by 3" do
+    expect(Fizzbuzz.printFizzBuzz(6)).to eq("Fizz")
+  end
 
 
 
